@@ -704,6 +704,6 @@ The next useful improvement would be to add qualifying/session data once availab
 <img width="1615" height="1174" alt="german_gp_sachsenring (1)" src="https://github.com/user-attachments/assets/a4fe9759-9e4c-4b3c-830e-8a19f6df83dd" />
 <img width="1558" height="1108" alt="german_gp_sachsenring (2)" src="https://github.com/user-attachments/assets/ca6f33df-7cff-4d64-b274-99c46d93ac52" />
 
-> **_NOTE:_** You can only see the top 5 riders of the next race (German GP/Sachsenring).
+> **_NOTE:_** These are PNG outputs. Now you can only see the top 5 riders of the next race (German GP/Sachsenring).
 
 
