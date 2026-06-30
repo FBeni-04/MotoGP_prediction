@@ -419,6 +419,8 @@ Validation year: 2025
 ```
 
 ## Results of validation:
+
+### MotoGP
 | stage                           | model  | validation_year | rows | accuracy | brier_loss | roc_auc | mae_positions_only_finishers |
 |---------------------------------|--------|-----------------|------|----------|------------|---------|------------------------------|
 | classifier_finish_probability   | RF_cls | 2025            | 410  | 0.798    | 0.174      | 0.595   | NaN                          |
@@ -427,6 +429,18 @@ Validation year: 2025
 | regressor_position_if_finished  | RF_reg | 2025            | 323  | NaN      | NaN        | NaN     | 3.207                        |
 | regressor_position_if_finished  | ET_reg | 2025            | 323  | NaN      | NaN        | NaN     | 3.348                        |
 | regressor_position_if_finished  | GB_reg | 2025            | 323  | NaN      | NaN        | NaN     | 3.273                        |
+
+
+### Moto2
+| stage                           | model  | validation_year | rows | accuracy | brier_loss | roc_auc | mae_positions_only_finishers |
+|---------------------------------|--------|-----------------|------|----------|------------|---------|------------------------------|
+| classifier_finish_probability   | RF_cls | 2025            | 410  | 0.777    | 0.179      | 0.522   | NaN                          |
+| classifier_finish_probability   | ET_cls | 2025            | 410  | 0.704    | 0.202      | 0.508   | NaN                          |
+| classifier_finish_probability   | GB_cls | 2025            | 410  | 0.831    | 0.139      | 0.555   | NaN                          |
+| regressor_position_if_finished  | RF_reg | 2025            | 323  | NaN      | NaN        | NaN     | 4.369                        |
+| regressor_position_if_finished  | ET_reg | 2025            | 323  | NaN      | NaN        | NaN     | 4.391                        |
+| regressor_position_if_finished  | GB_reg | 2025            | 323  | NaN      | NaN        | NaN     | 4.245                        |
+
 
 The classifier is evaluated with:
 
