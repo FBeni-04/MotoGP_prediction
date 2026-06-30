@@ -418,6 +418,16 @@ Training years: up to 2024
 Validation year: 2025
 ```
 
+## Results of validation:
+| stage                           | model  | validation_year | rows | accuracy | brier_loss | roc_auc | mae_positions_only_finishers |
+|---------------------------------|--------|-----------------|------|----------|------------|---------|------------------------------|
+| classifier_finish_probability   | RF_cls | 2025            | 410  | 0.798    | 0.174      | 0.595   | NaN                          |
+| classifier_finish_probability   | ET_cls | 2025            | 410  | 0.751    | 0.188      | 0.594   | NaN                          |
+| classifier_finish_probability   | GB_cls | 2025            | 410  | 0.780    | 0.165      | 0.620   | NaN                          |
+| regressor_position_if_finished  | RF_reg | 2025            | 323  | NaN      | NaN        | NaN     | 3.207                        |
+| regressor_position_if_finished  | ET_reg | 2025            | 323  | NaN      | NaN        | NaN     | 3.348                        |
+| regressor_position_if_finished  | GB_reg | 2025            | 323  | NaN      | NaN        | NaN     | 3.273                        |
+
 The classifier is evaluated with:
 
 - accuracy
@@ -429,6 +439,7 @@ The finishing-position regressor is evaluated with:
 - mean absolute error on classified finishers only
 
 ---
+
 
 # 9. Output Columns
 
