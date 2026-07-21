@@ -221,6 +221,8 @@ The Moto2 prediction input can be restricted to a manually selected rider list, 
 - Jacob Roulstone (temporary rider. He substitutes Aji)
 - Milan Pawelec
 
+> **_NOTE:_** During season Jorge Navarro changed team from Forward to Kalex and Xabi Zurutuza replaced him.
+
 Rider images, country flags, and team/bike images can be configured through dictionaries in the notebook or script.
 
 ## Moto2 Bike / Chassis Handling
